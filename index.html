@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOLIDAY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+        .el1{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: gold;
+            width: 100%;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+        }
+
+        .el3,.el4,.el5,.el6{
+            background-color: rgb(234, 223, 223);
+        }
+
+        .abc{
+            display: flex;
+        }
+
+         nav ul li{ 
+            list-style-type: none;
+            padding:10px; 
+        }
+
+        a{
+            color:gold;
+            text-decoration: none;
+        }
+
+        .el2{
+            background-image: url(/project2.html/tour.jpg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height:100vh;
+            width:100wh;
+        }
+
+        .el3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 100wh;
+            height: 80vh;
+        }
+
+        .project1,.project2,.project3{
+            border: 1px solid black;
+            height: 60%;
+            width: 20%;
+            gap: 5%;
+        }
+
+        .home{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid black;
+        }
+
+        .check{
+            border: 1px solid green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gold;
+            padding:10% ;
+            margin:20px;
+        }
+        
+
+        .place1{
+            background-color: green;
+            display: flex;
+            justify-content: space-between; 
+            padding: 5px ; 
+        }
+        
+        .place2{
+            background-color: red;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 5px;    
+        }
+        
+        .el4,.el7{
+            display: flex;
+            justify-content: center; 
+            padding:5%;
+            padding-bottom: 2%;
+        }
+        
+        .el5{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            gap: 5%;
+        }
+        
+        .travel1,.travel2,.travel3,.travel4{
+            border:1px solid black;
+            height: 60%;
+            width: 30%;
+        }
+    
+        .el6{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 5%;
+        }
+
+        
+        
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 1px;
+            bottom: 0;
+        }
+        .travel{
+            border: 1px solid rgb(16, 16, 16);
+            display: flex;
+            justify-content: space-evenly;
+            bottom: 0%;
+        }
+        
+        .el8{
+            height: 80vh;
+            width: 80vw;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-content: center;
+            gap: 5%;
+            padding-left: 10%;
+            
+        }
+        
+        .el8a{
+            border: 1px solid black;
+            display: flex;
+            
+        }
+        
+        .contact{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        </style>
+</head>
+<body>
+
+    <div class="el1">
+        <div>
+            <h4>HOLIDAY</h4>
+        </div>
+        <nav>
+            <ul class="abc">
+                    
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#ourtour">OUR TOURS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="el2" id="home">
+        <h1>FIND <span style="color: gold;">THE BEST</span> PLACE</h1>
+        <h3>FOR YOUR HOLIDAYS</h3>
+        <button>LEARN MORE</button>
+    </div>
+    
+    <div class="el3" id="about">
+        <div class="project1">
+            <span class="home">
+                <p style="background-color: white;">HOTEL</p>
+                <p style="background-color: gold;">CAR RENTAL</p>
+            </span>
+            <span>
+                <input type="text" placeholder="--Select Hotel--" id="hotel" size="25%"><br>
+                <input type="date" placeholder="Check-in Date" id="date" ><br>
+                <input type="date" placeholder="Check-out Date" id="date"><br>
+                <input type="text" id="person" list="person" placeholder="--Guest--"><br>
+            </span>
+            <button class="check">CHECK NOW</button>
+        </div>
+        <div class="project2">
+            <img src="./tour1.jpg" width="100%" height="80%">
+            <span class="place1">
+                <p>NEW YORK</p>
+                <p>$6,600</p>
+            </span>
+        </div>
+        <div class="project3">
+            <img src="./tour2.jpg" width="100%" height="80%">
+            <span class="place2">
+                <p>PARIS</p>
+                <p>$4,200</p>
+            </span>
+        </div>
+    </div>
+
+
+    <div class="el4" id="ourtour"><h1>------LOREM IPSUM DOLOR------</h1></div>
+    
+    <div class="el5">
+        <div class="travel1">
+            <img src="./tour3.jpg" width="100%" height="50%">
+            <span>
+                <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
+                <p>28 MARCH 2016</p>
+            </span>
+            <span class="travel">
+                <p><i class="fa-solid fa-heart"></i></p>
+                <p>TRAVEL</p>
+                <P><i class="fa-solid fa-pen-to-square"></i></P>       
+            </span>
+        </div>
+        <div class="travel2">
+            <img src="./tour4.jpg" width="100%" height="50%">
+            <span>
+                <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
+                <p>28 MARCH 2016</p>
+            </span>
+            <span class="travel">
+                <p><i class="fa-solid fa-heart"></i></p>
+                <p>TRAVEL</p>
+                <P><i class="fa-solid fa-pen-to-square"></i></P>       
+            </span>
+        </div>
+        <div class="travel3">
+            <img src="./tour5.jpg" width="100%" height="50%">
+            <span>
+                <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
+                <p>28 MARCH 2016</p>
+            </span>
+            <span class="travel">
+                <p><i class="fa-solid fa-heart"></i></p>
+                <p>TRAVEL</p>
+                <P><i class="fa-solid fa-pen-to-square"></i></P>       
+            </span>
+        </div>
+        <div class="travel4">
+            <img src="./tour6.jpg" width="100%" height="50%">
+            <span>
+                <p>PROIN GRAVIDA NIBHVEL LOREM QUIS BIND</p>
+                <p>28 MARCH 2016</p>
+            </span>
+            <span class="travel">
+                <p><i class="fa-solid fa-heart"></i></p>
+                <p>TRAVEL</p>
+                <P><i class="fa-solid fa-pen-to-square"></i></P>       
+            </span>
+        </div>
+    </div>
+
+    <div class="el6">
+        <p>Holiday is free Bootstrap v3.3.5 responsive template for tour and travel websites. You can download and use this layout for any purpose. You do not need to provide a credit link to us. If you have any question, feel free to contact us. Credit goes to Unispash for images used in this template.</p>
+    </div>
+
+    <div class="el7" id="contact">
+        <h1>------POPULAR PACKAGES------</h1>
+    </div>
+    
+
+    <div class="el8">
+        <div class="el8a">
+            <img src="./tour7.jpg" width="50%" height="100%">
+            <div class="contact">
+                <p>Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+                <span class="travel">
+                    <p><i class="fa-solid fa-heart"></i></p>
+                    <p>TRAVEL</p>
+                    <P><i class="fa-solid fa-pen-to-square"></i></P>
+                </span>
+            </div>
+        </div>
+
+        <div class="el8a">
+            <img src="./tour8.jpg" width="50%" height="100%">
+            <div class="contact">
+                <p>Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+                <span class="travel">
+                    <p><i class="fa-solid fa-heart"></i></p>
+                    <p>TRAVEL</p>
+                    <P><i class="fa-solid fa-pen-to-square"></i></P>
+                </span>
+            </div>
+        </div>
+
+        <div class="el8a">
+            <img src="./tour9.jpg" width="50%" height="100%">
+            <div class="contact">
+                <p>Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+                <span class="travel">
+                    <p><i class="fa-solid fa-heart"></i></p>
+                    <p>TRAVEL</p>
+                    <P><i class="fa-solid fa-pen-to-square"></i></P>
+                </span>
+            </div>
+        </div>
+
+        <div class="el8a">
+            <img src="./tour10.jpg" width="50%" height="100%">
+            <div class="contact">
+                <p>Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+                <span class="travel">
+                    <p><i class="fa-solid fa-heart"></i></p>
+                    <p>TRAVEL</p>
+                    <P><i class="fa-solid fa-pen-to-square"></i></P>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>Copyright © 2084 Your Company Name | Designed by <span style="color: gold;">templatemo</span></p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
